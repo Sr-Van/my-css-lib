@@ -1,0 +1,117 @@
+/* display */
+.dg {
+    display: grid !important;
+}
+.df {
+    display: flex !important;
+}
+.di {
+    display: inline;
+}
+/* display grid rules */
+.dgpic {
+    place-items: center;
+}
+
+/* display flex rules */
+.dfaic {
+    align-items: center !important;
+}
+.dfais {
+    align-items: start !important;
+}
+.dfaie {
+    align-items: end !important;
+}
+.dfjcc {
+    justify-content: center !important;
+}
+.dfjcs {
+    justify-content: start !important;
+}
+.dfjce {
+    justify-content: end !important;
+}
+/* gap */
+
+.ghalf {
+    gap: .5rem;
+}
+.g1 {
+    gap: 1rem;
+}
+.g2 {
+    gap: 2rem;
+}
+.g3 {
+    gap: 3rem;
+}
+.g4 {
+    gap: 4rem;
+}
+.g5 {
+    gap: 5rem;
+}
+
+@media(min-width: 480px) {
+    /* display 480px */
+    .dmbg {
+        display: grid !important;
+    }
+    
+    .dmbf {
+        display: flex !important;
+    }
+    .dmbi {
+        display: inline;
+    }
+
+    .dmbb {
+        display: block;
+    }
+
+    .dgmbpic {
+        place-items: center;
+    }
+    
+    /* display flex rules */
+    .dfmbaic {
+        align-items: center !important;
+    }
+    .dfmbais {
+        align-items: start !important;
+    }
+    .dfmbaie {
+        align-items: end !important;
+    }
+    .dfmbjcc {
+        justify-content: center !important;
+    }
+    .dfmbjcs {
+        justify-content: start !important;
+    }
+    .dfmbjce {
+        justify-content: end !important;
+    }
+
+    /* gap 480px */
+
+    .gmbhalf {
+        gap: .5rem;
+    }
+    .gmb1 {
+        gap: 1rem;
+    }
+    .gmb2 {
+        gap: 2rem;
+    }
+    .gmb3 {
+        gap: 3rem;
+    }
+    .gmb4 {
+        gap: 4rem;
+    }
+    .gmb5 {
+        gap: 5rem;
+    }
+}
